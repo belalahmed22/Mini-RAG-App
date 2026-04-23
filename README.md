@@ -24,3 +24,16 @@ A lightweight **Retrieval-Augmented Generation (RAG)** application built with Fa
    conda create -n mini-rag python=3.10 -yPython 3.8 Or Later
 
    conda activate mini-rag
+
+   ## Installation
+   ### Install The Required Packages
+   ```bash
+   $ pip install -r requirements.txt
+   ```
+   ### Setup The Environment Variables
+   ```bash
+   $ cp .env.example.env
+   ```
+   Set Your Environment Variables in the `.env` file Like 
+   `OPENAI_API_KEY` Value.
+   
